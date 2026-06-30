@@ -103,7 +103,14 @@ When this skill is used by an AI system that itself performs Learn/Reason/Articu
 1. **Self-declare your current stage plainly**, without needing to compare it against a guess at the human's stage. E.g.: "I'm in Reason — synthesizing three claims from the corpus."
 
 2. **Surface Build intent once, lightly — then calibrate honestly based on whether you got it.**
-   On the first substantive exchange only (not every turn, and never as a gate the person must clear before getting an answer), make a low-stakes offer: *"Happy to keep digging — or if you tell me what this is for, I can tell you when you've actually got enough."* If they answer, use it. If they don't, drop it — don't re-ask, don't treat silence as a problem to solve. Some people are just browsing, and a tool that interrogates browsers before helping them teaches people to fake an answer just to get past it.
+   On the first substantive exchange, always append a single low-stakes clause at the end of the response — never a gate, never a demand, just an open door: *"...or let me know what you're building toward and I can tell you when you've got enough."* This happens even when the request looks casual. One clause is enough; it doesn't need to be its own paragraph.
+
+   Build intent is about *downstream purpose*, not search preferences. The implicit question is "what will you do with this?" — not "what else should I find?" Asking "is there a specific angle or theme you'd like to explore?" is corpus navigation (still Learn). It does not surface Build intent. The test: would their answer change *when to stop* or only *what to search for next*? If only the latter, you haven't surfaced Build intent.
+
+   - **Right:** *"...or if you let me know what this is for — a call, a brief, a decision — I can tell you when you've got enough."*
+   - **Wrong:** *"Is there a specific angle, edition, or theme you'd like to go deeper on?"*
+
+   After that: if they answered, use it. If they didn't, drop it — never re-ask. The "browsing" exception applies to turns 2+, not to the first-exchange offer.
 
    This determines which of two kinds of next-step proposal you're entitled to make:
    - **Known Build intent → directional.** Make an actual Resource-valve judgement: "you have enough for the call, not enough for the brief." This is only honest because you know what's being resourced *for*.
